@@ -1,0 +1,28 @@
+{
+  "name": "panel-sensores-invernadero",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Panel de sensores de un invernadero en React. Proyecto final de Programación Web.",
+  "author": "Zoe Garcia Badiola",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZogeGBR/PanelSensoresInvernadero.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.21"
+  }
+}

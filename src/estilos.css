@@ -163,9 +163,11 @@ button:disabled { opacity: 0.45; cursor: default; }
 .rango { margin: 0; font-size: 0.9rem; color: rgba(22, 36, 29, 0.75); }
 
 /* ---------- Gráfico ---------- */
+.tarjeta > * { min-width: 0; }  /* que el contenido no impida que la tarjeta se achique */
 .grafico {
     width: 100%;
     min-height: 96px;
+    overflow: hidden;              /* el SVG viejo no empuja: así ResizeObserver puede medir el ancho menor */
     background: rgba(255, 255, 255, 0.35);
     border-radius: 14px;
     padding: 8px 0;
